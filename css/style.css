@@ -1,5 +1,6 @@
 :root{
     --main-btn-text-color: #FFFFFF;
+    --body-background-color: #FFFFFF;
     --portfolio-btn-text-color: #4D5AE5;
     --main-btn-background-color: #4D5AE5;
     --portfolio-btn-background-color: #F4F4FD;
@@ -8,11 +9,15 @@
     --link-color: #2E2F42;
     --btn-hover-background-color: #404BBF;
     --btn-hover-text-color: #FFFFFF;
+    --header-logo-color: #2E2F42;
+    --background-hero-color: #2E2F42;
+    --hero-title-color: #FFFFFF;
+    --footer-background-color: #2E2F42;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
+    background-color: var(--body-background-color);
 }
 
 .list {
@@ -52,6 +57,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border: none;
+    padding: 16px 32px
 }
 
 .main-btn{
@@ -60,6 +67,7 @@ body {
 }
 
 .portfolio-btn{
+    padding: 12px 24px;
     background-color: var(--portfolio-btn-background-color);
     color: var(--portfolio-btn-text-color);
 }
@@ -83,7 +91,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--header-logo-color)
 }
 
 .footer-logo {
@@ -141,7 +149,7 @@ color: var(--section-text-color)
 
 
 .hero {
-    background: #2E2F42;
+    background-color: var(--background-hero-color);
 }
 
 .hero-title {
@@ -149,7 +157,7 @@ color: var(--section-text-color)
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--hero-title-color)
 }
 
 .hero-btn{
@@ -162,9 +170,6 @@ color: var(--section-text-color)
 
 
 
-.features {
-    background: #E5E5E5;
-}
 
 
 
@@ -172,9 +177,6 @@ color: var(--section-text-color)
 
 
 
-.servises{
-    background: #FFFFFF;
-}
 
 
 
@@ -201,7 +203,7 @@ color: var(--section-text-color)
 
 
 .footer{
-    background: #2E2F42;
+    background-color: var(--footer-background-color)
 }
 
 .footer-text{
