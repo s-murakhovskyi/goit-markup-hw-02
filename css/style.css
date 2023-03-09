@@ -87,8 +87,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--header-logo-color)
@@ -133,6 +131,14 @@ font-style: normal;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--section-text-color)
+}
+
+.header-mail:is(:hover, :focus){
+color: #404BBF;
+}
+
+.header-tel:is(:hover, :focus){
+color: #404BBF;
 }
 
 .header-tel {
