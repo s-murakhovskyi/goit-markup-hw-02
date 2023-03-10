@@ -1,9 +1,11 @@
 :root{
     --main-btn-text-color: #FFFFFF;
     --body-background-color: #FFFFFF;
-    --portfolio-btn-text-color: #4D5AE5;
     --main-btn-background-color: #4D5AE5;
+    --portfolio-btn-text-color: #4D5AE5;
     --portfolio-btn-background-color: #F4F4FD;
+    --footer-background-color: #2E2F42;
+    --header-background-color: #FFFFFF;
     --sub-title-color: #2E2F42;
     --section-text-color: #434455;
     --link-color: #2E2F42;
@@ -12,7 +14,7 @@
     --header-logo-color: #2E2F42;
     --background-hero-color: #2E2F42;
     --hero-title-color: #FFFFFF;
-    --footer-background-color: #2E2F42;
+    
 }
 
 body {
@@ -109,7 +111,9 @@ body {
 
 /*-----HEADER-----*/
 
-
+.header{
+    background-color: var(--header-background-color);
+}
 
 span.span-logo{
     color: #4D5AE5;
