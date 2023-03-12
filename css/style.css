@@ -193,7 +193,7 @@ color: #404BBF;
 
 
 .team{
-    color: var(--team-background-color);
+    background-color: var(--team-background-color);
 }
 
 .third-sec-sub-title{
